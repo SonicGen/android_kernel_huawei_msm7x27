@@ -611,7 +611,7 @@ static int __init logger_init(void)
 {
 	int ret;
 	
-#ifdef CONFIG_HUAWEI_KERNEL
+#if 0
 	struct log_ctl ctl_info;
 	unsigned nv_log_ctl_info = LOG_CTL_INFO_ITEM;
 
